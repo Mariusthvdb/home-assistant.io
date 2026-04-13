@@ -886,14 +886,6 @@ conditions:
     - zone.work
 ```
 
-### Entity conditions
-
-Entity conditions, also called *purpose-specific conditions*, let you check entity state using meaningful terminology specific to that entity's domain. Instead of writing a [state condition](#state-condition) to check whether a state value equals a specific string, you can simply ask "If the climate is heating" or "If the lock is locked". This makes your automations much easier to read and understand, both when building them and when reviewing them later.
-
-{% include integrations/labs_entity_triggers_note.md %}
-
-Just like [entity triggers](/docs/automation/trigger/#entity-triggers), entity conditions support targeting. You can target an area, a floor, or a label instead of a specific entity. This lets you check, for example, whether any light in an area is on, without having to list each light individually. When you add or remove devices in an area, your automations automatically stay in sync.
-
 ## Examples
 
 {% raw %}
