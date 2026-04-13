@@ -211,6 +211,15 @@ Some of the available conditions are:
 
 For more details, refer to [Climate conditions](/integrations/climate/#conditions).
 
+#### Example: Continue only if the climate is heating
+
+```yaml
+conditions:
+  - condition: climate
+    type: is_heating
+    entity_id: climate.living_room
+```
+
 ### Device tracker conditions
 
 {% include integrations/labs_entity_triggers_note.md %}
@@ -278,6 +287,15 @@ Some of the available conditions are:
 - Light is off (`is_off`).
 
 For more details, refer to [Light conditions](/integrations/light/#conditions).
+
+#### Example: Continue only if the living room light is on
+
+```yaml
+conditions:
+  - condition: light
+    type: is_on
+    entity_id: light.living_room
+```
 
 ### Lock conditions
 
@@ -886,24 +904,6 @@ conditions:
 ```
 
 The `condition` key specifies the entity domain (such as `climate` or `light`), and `type` specifies the state to check for.
-
-#### Example: Continue only if the climate is heating
-
-```yaml
-conditions:
-  - condition: climate
-    type: is_heating
-    entity_id: climate.living_room
-```
-
-#### Example: Continue only if the living room light is on
-
-```yaml
-conditions:
-  - condition: light
-    type: is_on
-    entity_id: light.living_room
-```
 
 ## Examples
 
