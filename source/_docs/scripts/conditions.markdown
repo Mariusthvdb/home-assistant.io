@@ -894,17 +894,6 @@ Entity conditions, also called *purpose-specific conditions*, let you check enti
 
 Just like [entity triggers](/docs/automation/trigger/#entity-triggers), entity conditions support targeting. You can target an area, a floor, or a label instead of a specific entity. This lets you check, for example, whether any light in an area is on, without having to list each light individually. When you add or remove devices in an area, your automations automatically stay in sync.
 
-Entity conditions use the following YAML structure:
-
-```yaml
-conditions:
-  - condition: <domain>
-    type: <condition_type>
-    entity_id: <entity_id>
-```
-
-The `condition` key specifies the entity domain (such as `climate` or `light`), and `type` specifies the state to check for.
-
 ## Examples
 
 {% raw %}
