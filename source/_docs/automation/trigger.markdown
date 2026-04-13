@@ -1444,8 +1444,6 @@ This blueprint automation can then be triggered either by the fixed manual_event
 
 ## Creating an automation with actions that depend on different triggers
 
-{% include integrations/labs_entity_triggers_note.md %}
-
 Instead of creating many automations for different groups of related triggers and actions, you can build a single automation in the visual editor of the UI by following the steps below.
 
 1. Go to **Settings** > **Automations & scenes**.
