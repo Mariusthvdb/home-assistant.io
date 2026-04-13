@@ -164,7 +164,7 @@ conditions:
 
 ## Types of conditions
 
-A condition of an automation has a type that depends on the target of the condition. The following types are available.
+A condition of an automation has a type that depends on the target of the condition, usually corresponding to the domain of the target. The following types are available.
 
 ### Alarm control panel conditions
 
