@@ -1444,15 +1444,17 @@ This blueprint automation can then be triggered either by the fixed manual_event
 
 ## Creating an automation with actions that depend on different triggers
 
-Instead of creating many automations for different groups of related triggers and actions, you can build a single automation in the visual editor of the UI by following the steps below.
+Instead of creating many automations for different groups of related triggers and actions, you can build a single one in the visual editor of the UI by following the steps below.
 
 1. Go to **Settings** > **Automations & scenes**.
 2. In the lower right corner, select **Create automation** > **Create new automation**.
 3. In the **When** section, select **Add trigger**.
-4. In the trigger window on the right, edit the **Trigger ID** by going to the three dots {% icon "mdi:dots-vertical" %} menu > **Edit ID**.
-5. In the **Then do** section, select **Add action**, and then select the **Choose** block.
-6. Expand the option section, select **Add condition** and, in the **By type** list, select **Triggered by**.
-7. In the condition window on the right, select the trigger ID that you added in step 1.
-8. In the option section, select **Add action** and choose the action that will be fired by the related trigger.
-9. You can add more conditions and actions to that option by repeating the steps 6 to 8.
-10. Repeat the previous steps to add another trigger and related option for the new condition and action.
+4. Search for the trigger using the search box, for example, and then select it.
+5. In the trigger window on the right, edit the **Trigger ID** by going to the three dots {% icon "mdi:dots-vertical" %} menu > **Edit ID**.
+6. In the **Then do** section, select **Add action** and then select the **Choose** block.
+7. Expand the option section, select **Add condition** and, from the **By type** list, select the **Triggered by** condition.
+8. In the condition window on the right, select the trigger ID that you added in step 5 and then **Save**.
+9. In the section of the same option, select **Add action** and choose the action that will be fired by the related trigger.
+10. In the action window on the right, select the target or group of targets, input any other requested data and select **Save**.
+11. You can add more conditions and actions to that option by repeating steps 6 to 10.
+12. Repeat steps 3 to 11 to add another trigger and related option for the new condition and action.
